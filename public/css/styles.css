@@ -1,0 +1,278 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    color: #fff;
+}
+
+/* navbar */
+#logo img {
+    height: 40px;
+}
+
+#navbar {
+    padding: 1.2em 1.4em;
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    border-bottom: 1px solid #f6982d;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+#navbar ul li {
+    margin-left: 1em;
+}
+
+#navbar ul li a{
+    text-decoration: none;
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+#navbar ul li a:hover{
+    color: #f6982d;
+}
+
+/* CONTAINER */
+.container {
+    min-height: 60vh;
+    padding: 2em;
+}
+
+/* MESSAGES */
+
+.message {
+    padding: 1em;
+    color: #004085;
+    background-color: #fff;
+    border: 1px solid #b8daff;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto 2em;
+}
+
+/* FOOTER */
+
+footer {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px  solid #f6982d;
+}
+
+footer span {
+    font-weight: bold;
+    color: #f6982d;
+}
+
+/* REGISTER */
+
+.auth-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+    width: 500px;
+    margin-left: 480px;
+    border: #f6982d solid;
+    color: #f6982d;
+}
+
+h2 {
+    color: #f6982d;
+}
+.form-control{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: column;
+}
+
+.form-control  input{
+    padding: 5px;
+    
+}
+
+.form-control a {
+    color: #f6982d;
+}
+
+#enviar {
+    color: #f6982d;
+    margin-top: 5px ;
+    transition: .5s;
+}
+
+#enviar:hover{
+    color: white;
+    background-color: #f6982d;
+}
+
+/* PAINEL */
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+.mytoughts{
+    display: flex;
+    justify-content: initial;
+    margin-top: 30px;
+    margin-left: 220px;
+    height: 500px;
+    width: 1000px;
+    border: #f6982d solid;
+}
+
+.mytoughts ul {
+    list-style: none;
+    margin: 10px;
+    padding: 2px;
+}
+
+.mytoughts li {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 600px;
+    border: #f6982d solid;
+    padding: 5px;
+    margin: 5px;
+}
+
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #f6982d;
+}
+
+.actions {
+    display: flex;
+    padding: 5px;
+}
+.actions a {
+    text-decoration: none;
+    transition: 1.5s;
+}
+
+.actions a:hover{
+    color: #f6982d;
+}
+
+.home-header {
+    display: flex;
+    flex-direction: column;
+    max-width: 60%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .home-header h1 {
+    margin-bottom: 1em;
+  }
+  
+  .home-header span {
+    color: #f6982d;
+  }
+  
+  .home-header p {
+    margin-bottom: 1.2em;
+  }
+  
+  .home-header form {
+    margin-bottom: 1em;
+  }
+  
+  .home-header input {
+    border: 1px solid #fff;
+    padding: 0.5em;
+    margin-right: 1em;
+  }
+  
+  .home-header input[type='text'] {
+    width: 60%;
+  }
+  
+  .home-header input::placeholder {
+    color: #dfba90;
+  }
+  
+
+  .order-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 80%;
+    margin: 0 auto 1em;
+  }
+  
+  .order-container span {
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .order-container form {
+    margin: 0;
+  }
+  
+  .order-container button {
+    margin-bottom: 0;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .order-container button:hover,
+  .order-container a:hover {
+    color: #f6982d;
+  }
+  
+  .order-container span,
+  .order-container button,
+  .order-container a {
+    margin: 0 10px;
+  }
+  
+  .order-container i {
+    color: #f6982d;
+  }
+
+  .order-container a {
+    color: #f6982d;
+  }
+  
+  .toughts-container figure {
+    border-bottom: 1px solid #333;
+    padding: 0.5em;
+    max-width: 50%;
+    margin: 0 auto 1em;
+  }
+  
+  .toughts-container blockquote {
+    font-style: italic;
+    font-size: 2em;
+    margin-bottom: 0.4em;
+  }
+  
+  .toughts-container span {
+    color: #f6982d;
+  }
+
+
+.home-header #buscar{
+    cursor: pointer;
+}
